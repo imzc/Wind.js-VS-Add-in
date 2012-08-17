@@ -1,2 +1,3 @@
-Set objShell = WScript.CreateObject("WScript.Shell")
+Set objShell = CreateObject("WScript.Shell")
+
 objShell.Run "msiexec /i node-v0.8.7-x86.msi"

@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0F6479BAA27447378EB77F9401061A0F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_2E2618856954170662D032F6A0D6169D"
         "OwnerKey" = "8:_89984C836E86224C41F63964A3E3054A"
         "MsmSig" = "8:_UNDEFINED"
@@ -93,6 +87,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_7C8577D496C34B7B9551A6D269E4B87D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_88174DD008AA4135989535257F83698D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_89984C836E86224C41F63964A3E3054A"
         "OwnerKey" = "8:_5FCAED562DE7403B8F1D995D27CF7CCA"
         "MsmSig" = "8:_UNDEFINED"
@@ -125,12 +131,6 @@
         {
         "MsmKey" = "8:_8DF0BC70C3A9B34CF9D024CE23DA78CF"
         "OwnerKey" = "8:_6E92BDC2EB594EFFA868D255B068AD08"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_91DE6F3C6ACA49F1A573295FF29133DE"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -203,6 +203,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_EFF5A305CABE3319EDB6D70BD2F9BF5D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_7C8577D496C34B7B9551A6D269E4B87D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -329,32 +335,18 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_2DA4F18F5E764D39BA2FB8B25FF5EC72"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_E673CA87B0FB452A94C129724CDE3A22"
             {
-            "Name" = "8:installnode.vbs"
+            "Name" = "8:InstallNode.exe"
             "Condition" = "8:"
-            "Object" = "8:_91DE6F3C6ACA49F1A573295FF29133DE"
-            "FileType" = "3:4"
+            "Object" = "8:_7C8577D496C34B7B9551A6D269E4B87D"
+            "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_2E9BB118_FAD2_4189_8507_A36A83C19497"
-            "InstallerClass" = "11:FALSE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_469E507F6F394C318DB3FED1569B8C5C"
-            {
-            "Name" = "8:npm.vbs"
-            "Condition" = "8:"
-            "Object" = "8:_0F6479BAA27447378EB77F9401061A0F"
-            "FileType" = "3:4"
-            "InstallAction" = "3:2"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:1"
-            "Identifier" = "8:_23886892_1E1E_4AF4_85DE_F1B8493678B1"
-            "InstallerClass" = "11:FALSE"
+            "Identifier" = "8:_950486B1_48D8_46B8_9CB9_B42178F969F3"
+            "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
         }
@@ -380,26 +372,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0F6479BAA27447378EB77F9401061A0F"
-            {
-            "SourcePath" = "8:..\\packages\\npm.vbs"
-            "TargetName" = "8:npm.vbs"
-            "Tag" = "8:"
-            "Folder" = "8:_C1019E93EA524635A013DFFC769C2388"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2E2618856954170662D032F6A0D6169D"
             {
             "AssemblyRegister" = "3:1"
@@ -522,6 +494,57 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7C8577D496C34B7B9551A6D269E4B87D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:InstallNode, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_7C8577D496C34B7B9551A6D269E4B87D"
+                    {
+                    "Name" = "8:InstallNode.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\packages\\InstallNode.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_C1019E93EA524635A013DFFC769C2388"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_88174DD008AA4135989535257F83698D"
+            {
+            "SourcePath" = "8:..\\packages\\installnode.vbs"
+            "TargetName" = "8:installnode.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_C1019E93EA524635A013DFFC769C2388"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_89984C836E86224C41F63964A3E3054A"
             {
             "AssemblyRegister" = "3:1"
@@ -582,26 +605,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_91DE6F3C6ACA49F1A573295FF29133DE"
-            {
-            "SourcePath" = "8:..\\packages\\installnode.vbs"
-            "TargetName" = "8:installnode.vbs"
-            "Tag" = "8:"
-            "Folder" = "8:_C1019E93EA524635A013DFFC769C2388"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_99D7CB28E94CB27C849C16C5D691666A"
@@ -836,7 +839,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Wind.js Compiler for VS"
         "ProductCode" = "8:{0DD38BDA-2A9E-4D79-A733-2122D727638B}"
-        "PackageCode" = "8:{76508535-69A4-49EE-90F9-9EBDF6A676E1}"
+        "PackageCode" = "8:{7FFBB9BE-1FFD-4EC1-9A2F-1D77B8E4DE03}"
         "UpgradeCode" = "8:{961EA51D-1715-4558-BCCC-388C232BDCC1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
