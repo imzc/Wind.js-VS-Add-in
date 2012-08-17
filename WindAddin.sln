@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindAddin", "WindAddin\WindAddin.csproj", "{3E519B02-BD7D-4251-B772-8BD991BA537F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{96D9CD11-E628-43F2-9CC2-B1A031CEDB03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E519B02-BD7D-4251-B772-8BD991BA537F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E519B02-BD7D-4251-B772-8BD991BA537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E519B02-BD7D-4251-B772-8BD991BA537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E519B02-BD7D-4251-B772-8BD991BA537F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D9CD11-E628-43F2-9CC2-B1A031CEDB03}.Debug|Any CPU.ActiveCfg = Debug
+		{96D9CD11-E628-43F2-9CC2-B1A031CEDB03}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

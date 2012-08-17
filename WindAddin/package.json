@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "Charlie Zhang",
+    "email": "zcxp@live.cn",
+    "url": "http://aboutzc.com/"
+  },
+  "homepage": "https://github.com/zcxp/Wind.js-VS-Add-in",
+  "bugs": {
+    "url": "https://github.com/zcxp/Wind.js-VS-Add-in/issues",
+    "email": "zcxp@live.cn"
+  },
+  "name": "windc-vs-addin",
+  "dependencies": {
+    "windc": "~0.7.0"
+  },
+  "version":"0.0.5"
+}
